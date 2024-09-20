@@ -33,9 +33,7 @@ p1
 ```
 
 
-
-
-Change the text of the plot title and axis labels.
+The plot depicts the favourite number of each team member, with the bar plot filled in using each member's respective chosen colour
 
 ```{r labelled-bar-plot}
 p1 + labs(x = "github_username", 
@@ -43,7 +41,7 @@ p1 + labs(x = "github_username",
           title = "GitHub Username and Favourite Number")
 ```
 
-*Remove this text (including the stars), and add your answer for Exercise 19 here.*
+the function "Labs()" is used to provide labels and titles for graphs.
 
 ### Exercise 20
 
@@ -53,4 +51,4 @@ p2 <- ggplot(team_data, aes(x = hobby)) +
 p2
 ```
 
-*Remove this text (including the stars) and add your answer for Exercise 20 here.*
+If individuals have unique hobbies, the graph provides little visual value other than listing the data set in the y-axis. However, if the data set is made more general, perhaps put into categories of hobbies rather than individual ones (art instead of painting and drawing), then the bar graph would likely depict varying heights and better convey information visually.
